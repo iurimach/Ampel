@@ -1,0 +1,104 @@
+
+.FORMA{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.shuqnishani{
+    width: 53px;
+    height: 180px;
+    border: 4px solid rgb(14, 13, 13);
+    
+}
+
+.witeli{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 2, 2);
+    animation-name: witeli;
+    animation-duration: inherit;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    margin-top: 10px;
+   
+}
+
+@keyframes witeli{
+    0%   {background-color: red; border: 1px solid black; } 
+    34% {background-color: red; border: 1px solid black; }
+    35%{background-color: rgb(255, 253, 253); border: 1px solid black; }
+    40% {background-color: red; border: 1px solid black; }
+    44%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    
+    49%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    50%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    75%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    85%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    100% {background-color: rgb(255, 253, 253); border: 1px solid black; }
+}
+
+.yviteli{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 255, 34);
+    animation-name: yviteli1;
+    animation-duration: inherit;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+@keyframes yviteli1{
+    0%   {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    25%  {background-color: rgb(255, 253, 253); border: 1px solid black;}
+    35%  {background-color: rgb(255, 253, 253); border: 1px solid black;}
+    45%  {background-color: rgb(255, 253, 253); border: 1px solid black;}
+    50%  {background-color:yellow; border: 1px solid black; }
+    55%  {background-color:yellow; border: 1px solid black; }
+    56%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    85%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    100% {background-color: rgb(255, 253, 253); border: 1px solid black; }
+}
+
+.mwvane{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(23, 233, 4);
+    animation-name: mwvane1;
+    animation-duration: inherit;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes mwvane1{
+    0%   {background-color: rgb(255, 253, 253);border: 1px solid black; }
+    25%  {background-color: rgb(255, 253, 253); border: 1px solid black;}
+    50%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    75%  {background-color: rgb(44, 209, 44); border: 1px solid black; }
+    85%  {background-color: rgb(44, 209, 44) ; border: 1px solid black; }
+    90%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    94% {background-color: rgb(44, 209, 44) ; border: 1px solid black; }
+    98%  {background-color: rgb(255, 253, 253); border: 1px solid black; }
+    100% {background-color: rgb(44, 209, 44); border: 1px solid black;  }
+
+}
+.ampelbody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.joxi{
+    width: 12px;
+    height: 220px;
+    border: 2px solid black;
+
+}
